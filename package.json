@@ -7,20 +7,23 @@
     "serve": "nodemon ./server.js --ignore node_modules/ -e js,html,css",
     "lint": "eslint server.js public/script.js"
   },
-  "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
+  "author": "Aymane Benhima <aymanebenhima@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejsdevelopers/poster-shop"
+    "url": "https://github.com/aymanebenhima/pets-shop"
   },
   "engines": {
     "node": ">=4"
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "axios": "~0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "~1.18.3",
     "dotenv": "~6.0.0",
-    "express": "~4.16.4"
+    "express": "~4.16.4",
+    "scrollmonitor": "^1.2.4",
+    "vue": "^2.6.12",
+    "vue-resource": "^1.5.1"
   },
   "devDependencies": {
     "eslint": "~5.5.0",
